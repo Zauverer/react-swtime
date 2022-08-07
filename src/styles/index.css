@@ -1,12 +1,47 @@
+.Timers{
+    text-align: center;
+    background: black;
+}
 
-/* 
+.Timers div{
+    display: inline-block;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 120px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+span{
+    padding: 15px;  
+}
 
-*/
+
+  #display {
+    margin-bottom: 20px;
+  }
+  #display span {
+    font-size: 70px;
+  }
+
+  button {
+    font-size: 16px;
+    background-color: rgb(217, 60, 35);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 70px;
+    margin-bottom: 10px;
+  }
+  button:hover {
+    background-color: rgb(173, 47, 28);
+  }
+  button:active {
+    background-color: rgb(130, 35, 21);
+  }
+  button:focus {
+    outline: 0;
+  }
